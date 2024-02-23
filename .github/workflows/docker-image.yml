@@ -30,7 +30,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push parzivall/docker-graphql:0.0.2 .
+        docker push parzivall/docker-graphql:0.0.2
     
     # - name: Build Docker Image
     #   env:
